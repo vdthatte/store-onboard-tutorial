@@ -71,7 +71,9 @@ body{
 		border-radius: 5px;
 		box-shadow: 0 37.125px 70px -12.125px rgba(0,0,0,0.3);
 		border-style: solid;
-		border-color: transparent;
+		border-color: white;
+		border-width: 10px;
+		outline: none;
 	}
 }	
 
@@ -103,7 +105,9 @@ body{
 		width: 100%; 
 		border-radius: 5px;
 		border-style: solid;
-		border-color: transparent;
+		border-color: white;
+		border-width: 10px;
+		outline: 0;
 	}
 	
 }
