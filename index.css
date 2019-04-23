@@ -21,13 +21,9 @@ html {
 	}
 
 	.heading-1{
-		padding-top: 5%;
-		padding-right: 2.5%;
-		padding-left: 2.5%;
-		font-size: 2vw;
-		text-decoration: none;
-		font-weight: 700;
-		color: #CECECE;
+		font-size: 5vw;
+		line-height: 1em;
+		font-weight: 300;
 	}
 
 	.heading-1-active{
@@ -41,13 +37,14 @@ html {
 	}
 
 	.heading-2{
-		font-size: 2.4vw;
+		font-size: 2.5vw;
 		line-height: 1em;
+		font-weight: 300;
 	}
 
 	.heading-3{
-		font-size: 1.6vw;
-		font-weight: 400;
+		font-size: 1.4vw;
+		font-weight: 800;
 		line-height: 1em;
 	}
 
@@ -93,9 +90,9 @@ html {
 		left: 0;
 		top: 0;
 		background-color: #fff;
-		padding-right: 2.5%;
-		padding-left: 0%;
-		padding-top: 2.5%;
+		padding-right: 1.5%;
+		padding-left: 1.5%;
+		padding-top: 2%;
 		height: 100%;
 		width: 15%;
 		box-shadow: 3px 0 70px -12.125px rgba(0,0,0,0.3);
@@ -103,7 +100,7 @@ html {
 	}
 
 	.right-section{
-		margin-top: 2.5%;
+		margin-top: 0%;
 		margin-left: 20%;
 	}
 
@@ -120,6 +117,14 @@ html {
 		list-style-type: none;
 		padding-bottom: 10%;
 		opacity: 0.5;
+	}
+
+	.ul{
+		border-top-width: 1px;
+		border-top-style: solid;
+		border-top-color: #c9c9c9;
+		padding-top: 15%;
+		padding-bottom: 3%;
 	}
 
 
