@@ -4,6 +4,10 @@ body{
 	font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media only screen and (min-width: 800px) {
 
 	.heading-main{
@@ -42,13 +46,13 @@ body{
 
 	.step-heading{
 		padding-top: 2%;
-		font-size: 1.4vw;
+		font-size: 1.2vw;
 		opacity: 0.3;
 		font-weight: 700;
 	}
 
 	.paragraph-1{
-		font-size: 1.7vw;
+		font-size: 1.4vw;
 		font-weight: 400;
 		opacity: 0.5;
 	}
@@ -74,6 +78,49 @@ body{
 		border-color: white;
 		border-width: 10px;
 		outline: none;
+	}
+
+	.left-menu{
+		position: fixed;
+		float: left;
+		left: 0;
+		top: 0;
+		background-color: #fff;
+		padding-right: 2.5%;
+		padding-left: 1%;
+		padding-right: 2.5%;
+		padding-top: 2.5%;
+		height: 100%;
+		width: 15%;
+		box-shadow: 3px 0 70px -12.125px rgba(0,0,0,0.3);
+		overflow-y: scroll;
+	}
+
+	.right-section{
+		margin-top: 5%;
+		margin-left: 20%;
+	}
+
+	.separator-li{
+		list-style-type: none;
+		padding-bottom: 10%;
+		padding-top: 10%;
+		opacity: 0.2;
+		font-weight: 800;
+		font-size: 14px;
+	}
+
+	.nav-li{
+		list-style-type: none;
+		padding-bottom: 10%;
+		opacity: 0.5;
+	}
+
+
+	.step-link{
+		text-decoration: none;
+		color: #000;
+		font-size: 16px;
 	}
 }	
 
