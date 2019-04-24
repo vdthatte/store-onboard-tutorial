@@ -50,7 +50,7 @@ html {
 	}
 
 	.paragraph-1{
-		font-size: 1.4vw;
+		font-size: 1.6vw;
 		font-weight: 400;
 		opacity: 0.5;
 	}
@@ -64,8 +64,8 @@ html {
 
 	.col{
 		width: 40%;
-		padding-left: 5%;
-		padding-right: 5%;
+		padding-left: 2%;
+		padding-right: 8%;
 	}
 
 
@@ -109,7 +109,7 @@ html {
 		list-style-type: none;
 		padding-bottom: 10%;
 		padding-top: 2%;
-		opacity: 0.3;
+		opacity: 0.2;
 		font-weight: 800;
 		font-size: 16px;
 	}
@@ -130,8 +130,10 @@ html {
 
 	.step-link{
 		text-decoration: none;
-		color: #ff6060;
+		color: #000;
 		font-size: 16px;
+		font-weight: 600;
+		opacity: 0.8;
 	}
 
 	.header{
