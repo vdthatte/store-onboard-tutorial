@@ -149,8 +149,20 @@ html {
 
 @media only screen and (max-width: 800px) {
 
+
+	.heading-1{
+		font-size: 12vw;
+		line-height: 1em;
+		font-weight: 700;
+	}
+
 	.heading-2{
 		font-size: 7vw;
+	}
+
+	.heading-3{
+		font-size: 7vw;
+		font-weight: 800;
 	}
 
 	.step-heading{
@@ -164,6 +176,7 @@ html {
 		font-size: 5vw;
 		font-weight: 400;
 		opacity: 0.5;
+		width: 90%;
 	}
 
 	.flex-grid{
@@ -172,12 +185,16 @@ html {
 	}
 
 	.video{
-		width: 100%; 
+		width: 90%; 
 		border-radius: 5px;
 		border-style: solid;
 		border-color: white;
 		border-width: 10px;
 		outline: 0;
+	}
+
+	.left-menu{
+		display: none;
 	}
 	
 }
